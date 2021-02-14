@@ -7,7 +7,7 @@ const Footer = props => {
         <div className="column">
           <p id="cp">&copy; {props.name}</p>
           <p id="by-gatsby">
-            Proudly made with{" "}
+            Powered by{" "}
             <a
               target="_blank"
               rel="noreferrer noopener"

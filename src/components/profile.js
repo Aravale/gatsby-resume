@@ -1,5 +1,5 @@
 import React from "react"
-import profile_photo from "../../static/profile.png"
+import profile_photo from "../../static/smallphoto.jpg"
 import { SocialIcon } from "react-social-icons"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -28,6 +28,8 @@ const Profile = props => {
       url={item.link}
       bgColor={themeDict[theme]}
       style={{ height: 25, width: 25 }}
+      target={"_blank"} 
+      rel={"noopener noreferrer"}
     />
   ))
   return (
@@ -41,6 +43,7 @@ const Profile = props => {
         </p>
       </div>
       <div id="social-icons-wrapper">{socialIcons}</div>
+      <a href="../../static/HussainRes2.pdf" download>Download Resume</a>
     </>
   )
 }
