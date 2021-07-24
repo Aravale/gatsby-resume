@@ -18,7 +18,7 @@ module.exports = {
     about: `
       
       <p>A software engineer with experience in web and mobile via internsips, university and personal projects. I graduted at the top of my class and spend most of my time trying to keep up with new technologies. I love learning new things and can easily adapt to different platforms.</p>
-      
+      <p>Currently working as a software developer for BenchMatrix in their CRM(Credit Risk Management) team. Primary role includes maintenance, dealing with bugs and issues, of Loan Orignation System and working on change requests to the system.</p>
       `,
     education: [
       {
@@ -45,6 +45,13 @@ module.exports = {
       },
     ],
     experience: [
+      {
+        role: "Software Developer",
+        when: "March 2021 - Current",
+        company: "BenchMatrix",
+        where: "Karachi, Pakistan",
+        moreInfo: `Mainly work on maintenance and change requests related to the Loan Origination System, using .Net webforms, T-SQL.`,
+      },
       {
         role: "Tech Intern",
         when: "May 2020 - July 2020",
@@ -94,7 +101,7 @@ module.exports = {
         name: "KonvaJS",
       },
       {
-        name: "MySQL",
+        name: "MySQL,T-SQL",
       },
       {
         name: "MongoDB",
